@@ -327,6 +327,8 @@ body.dark-mode .toggle-thumb { transform: translateX(18px); }
   background: var(--card-bg);
   border: 1px dashed var(--card-border);
   border-radius: var(--radius);
+   display:flex;
+   flex-direction:column;
 }
 .empty-icon { font-size: 4rem; margin-bottom: 20px; }
 .empty-cart h3 {
